@@ -11,6 +11,7 @@ specifiers:
   clsx: ^2.1.1
   eslint: ^8
   eslint-config-next: 14.2.5
+  geist: ^1.3.1
   lucide-react: ^0.418.0
   next: 14.2.5
   postcss: ^8
@@ -27,6 +28,7 @@ dependencies:
   '@radix-ui/react-slot': 1.1.0_3vdbhqr2ncalcx7opnshezpx3q
   class-variance-authority: 0.7.0
   clsx: 2.1.1
+  geist: 1.3.1_next@14.2.5
   lucide-react: 0.418.0_react@18.3.1
   next: 14.2.5_nnrd3gsncyragczmpvfhocinkq
   react: 18.3.1
@@ -1408,6 +1410,14 @@ packages:
   /functions-have-names/1.2.3:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
     dev: true
+
+  /geist/1.3.1_next@14.2.5:
+    resolution: {integrity: sha512-Q4gC1pBVPN+D579pBaz0TRRnGA4p9UK6elDY/xizXdFk/g4EKR5g0I+4p/Kj6gM0SajDBZ/0FvDV9ey9ud7BWw==}
+    peerDependencies:
+      next: '>=13.2.0'
+    dependencies:
+      next: 14.2.5_nnrd3gsncyragczmpvfhocinkq
+    dev: false
 
   /get-intrinsic/1.2.4:
     resolution: {integrity: sha512-5uYhsJH8VJBTv7oslg4BznJYhDoRI6waYCxMmCdnTrcCrHA/fCFKoTFz2JKKE0HdDFUF7/oQuhzumXJK7paBRQ==}
