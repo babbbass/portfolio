@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <Section className='flex max-md:flex-col items-start gap-4'>
       <div className='flex-[2] flex gap-2 flex-col'>
-        Hello, i'm
+        Hello, {`i'm`}
         <h2 className='text-3xl font-bold text-primary'>Sebastien Savan 👋</h2>
         <h3 className={"italic text-xl text-muted-foreground"}>
           I build things for the web.
