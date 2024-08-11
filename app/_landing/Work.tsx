@@ -1,20 +1,26 @@
 import { Badge } from "@/components/ui/badge"
-import { Ampersands, Armchair, LucideIcon } from "lucide-react"
+import { AtSign, LucideIcon, LoaderPinwheel, Dumbbell } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
 export const SIDE_PROJECTS = [
   {
-    Logo: Armchair,
+    Logo: AtSign,
     title: "Summarize Articles",
     description: "Simplify your reading, An open-source article summarizer",
     url: "https://lively-lily-74d3ef.netlify.app/",
   },
   {
-    Logo: Ampersands,
+    Logo: LoaderPinwheel,
     title: "The Green Book",
     description: "sports betting bankroll management",
     url: "https://thegreenbook.vercel.app/",
+  },
+  {
+    Logo: Dumbbell,
+    title: "Infos Athletes",
+    description: "News on your favorite sports",
+    url: "https://infos-athletes.web.app/",
   },
 ]
 
@@ -32,7 +38,7 @@ export const SideProject = (props: SideProjectProps) => {
         href={props.url}
         className='inline-flex items-center gap-4 hover:bg-accent/50 transition-colors rounded-sm p-1'
       >
-        <span className='bg-accent text-accent-foreground p-4 rounded-sm'>
+        <span className='bg-primary text-accent-foreground p-4 rounded-sm '>
           <props.Logo size={16} />
         </span>
         <div>

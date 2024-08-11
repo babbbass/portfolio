@@ -1,10 +1,20 @@
 import { Card } from "@/components/ui/card"
 import { ContactCard } from "./ContactCard"
 import { Section } from "./Section"
+import { Code } from "./Code"
 
 export function ContactMe() {
   return (
     <Section>
+      <p className=' text-muted-foreground px-1 mb-3'>
+        I have created many websites with development expertise. I acquired
+        solid skills using <Code>Typescript</Code> with the <Code>React</Code>{" "}
+        and the <Code>NextJs</Code>
+        framework.
+        <br />
+        If you are looking for to work on your project, do not hesitate to
+        contact me. I look forward to discussing your future plans with you.
+      </p>
       <Card className='p-4 flex flex-col gap-3'>
         <ContactCard
           image='/babbbass.jpeg'
