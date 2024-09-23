@@ -9,15 +9,15 @@ export default function Home() {
   return (
     <main className='h-full w-full'>
       <Header />
-      <Spacing size='md' />
+      <Spacing size='sm' />
       <Hero />
-      <Spacing size='md' />
+      <Spacing />
       <Status />
-      <Spacing size='md' />
+      <Spacing size='sm' />
       <Skills />
-      <Spacing size='md' />
+      <Spacing size='sm' />
       <ContactMe />
-      <Spacing size='md' />
+      <Spacing size='sm' />
       <Footer />
     </main>
   )
