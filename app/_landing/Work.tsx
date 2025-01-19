@@ -1,9 +1,21 @@
 import { Badge } from "@/components/ui/badge"
-import { AtSign, LucideIcon, LoaderPinwheel, Dumbbell } from "lucide-react"
+import {
+  AtSign,
+  LucideIcon,
+  LoaderPinwheel,
+  Dumbbell,
+  Mail,
+} from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
 export const SIDE_PROJECTS = [
+  {
+    Logo: Mail,
+    title: "BUDG'UP",
+    description: "Manage your finances adviced by AI",
+    url: "https://budget-tracker-beta-seven.vercel.app/",
+  },
   {
     Logo: AtSign,
     title: "Summarize Articles",
