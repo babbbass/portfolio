@@ -5,11 +5,18 @@ import {
   LoaderPinwheel,
   Dumbbell,
   Mail,
+  BotMessageSquare,
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
 export const SIDE_PROJECTS = [
+  {
+    Logo: BotMessageSquare,
+    title: "CHATBOT",
+    description: "Chatbot for the Paris Saint-Germain Football Club",
+    url: "https://chat-bot-eta-five.vercel.app/",
+  },
   {
     Logo: Mail,
     title: "BUDG'UP",

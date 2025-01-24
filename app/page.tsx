@@ -11,7 +11,6 @@ export default function Home() {
       <Header />
       <Spacing size='sm' />
       <Hero />
-      <Spacing />
       <Status />
       <Spacing size='sm' />
       <Skills />
