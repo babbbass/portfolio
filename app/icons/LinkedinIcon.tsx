@@ -6,7 +6,7 @@ export function LinkedinIcon(
     <svg
       width={props.size}
       height={props.size}
-      enable-background='new 0 0 112.196 112.196'
+      enableBackground='new 0 0 112.196 112.196'
       viewBox='0 0 112.196 112.196'
       xmlns='http://www.w3.org/2000/svg'
       {...props}
