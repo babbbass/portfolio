@@ -60,18 +60,20 @@ type SideProjectProps = {
 export const SideProject = (props: SideProjectProps) => {
   return (
     <div>
-      <Link
+      <a
         href={props.url}
         className='inline-flex items-center gap-4 hover:bg-accent/50 transition-colors rounded-sm p-1'
+        target='_blank'
+        rel='noopener noreferrer'
       >
         <span className='bg-primary text-accent-foreground p-4 rounded-sm '>
-          <props.Logo size={16} />
+          <props.Logo size={20} />
         </span>
         <div>
           <p className='text-lg font-semibold'>{props.title}</p>
           <p className='text-sm text-muted-foreground'>{props.description}</p>
         </div>{" "}
-      </Link>
+      </a>
     </div>
   )
 }
@@ -130,9 +132,11 @@ type WorkProps = {
 export const Work = (props: WorkProps) => {
   return (
     <div className=''>
-      <Link
+      <a
         href={props.url}
         className=' w-full inline-flex items-center justify-stretch gap-4 hover:bg-accent/50 transition-colors rounded-sm p-1'
+        target='_blank'
+        rel='noopener noreferrer'
       >
         <Image
           src={props.logo}
@@ -154,7 +158,7 @@ export const Work = (props: WorkProps) => {
           <p className='text-xs text-muted-foreground'>{props.role}</p>
         </div>
         <p className='text-xs text-muted-foreground flex-[2]'>{props.date}</p>
-      </Link>
+      </a>
     </div>
   )
 }
