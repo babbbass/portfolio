@@ -79,11 +79,11 @@ export const WORKS: WorkProps[] = [
     freelance: true,
   },
   {
-    logo: "https://media.licdn.com/dms/image/D4E0BAQHKcPmjDAUA0A/company-logo_200_200/0/1686059758117/fusion_jeunesse_fr_logo?e=1730937600&v=beta&t=jWtagUXPydIKCNCWg_5LkPSCL5PynA6-jMlVfItSMNQ",
+    logo: "https://portail.fusionjeunesse.org/images/fj_logo.png",
     title: "Fusion Jeunesse",
     role: "coordinator",
     date: "2024 - present",
-    url: "https://www.humanunderwatersociety.org/en/",
+    url: "https://fusionjeunesse.org/",
     freelance: true,
   },
   {
