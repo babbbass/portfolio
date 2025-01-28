@@ -6,6 +6,7 @@ import {
   Dumbbell,
   Mail,
   BotMessageSquare,
+  BookType,
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
@@ -25,6 +26,12 @@ export const SIDE_PROJECTS = [
   },
   {
     Logo: AtSign,
+    title: "PIXELOFT",
+    description: "web agency",
+    url: "https://www.pixeloft.fr/",
+  },
+  {
+    Logo: BookType,
     title: "Summarize Articles",
     description: "Simplify your reading, An open-source article summarizer",
     url: "https://lively-lily-74d3ef.netlify.app/",
