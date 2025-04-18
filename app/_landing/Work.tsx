@@ -7,14 +7,21 @@ import {
   Mail,
   BotMessageSquare,
   BookType,
+  FileText,
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
 export const SIDE_PROJECTS = [
   {
+    Logo: FileText,
+    title: "CLEVER DOCS",
+    description: "Simplifiez votre comptabilité",
+    url: "http://cleverdocs.app/",
+  },
+  {
     Logo: BotMessageSquare,
-    title: "CHATBOT",
+    title: "CHATBOT (bdd sleeping)",
     description: "Chatbot for the Paris Saint-Germain Football Club",
     url: "https://chat-bot-eta-five.vercel.app/",
   },
